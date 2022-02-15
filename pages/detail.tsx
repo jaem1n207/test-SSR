@@ -1,4 +1,5 @@
 import Banner from '@/components/Banner';
+import LectureGroup from '@/components/lecture/lectureGroup';
 import Menu from '@/components/Menu';
 import type { NextPage } from 'next';
 import Head from 'next/head';
@@ -16,8 +17,7 @@ const Detail: NextPage = () => {
 
       <Menu />
       <Banner />
-
-      <div title="lectureList">강의 목록</div>
+      <LectureGroup />
 
       <footer className={styles.footer}>
         <a
